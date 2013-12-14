@@ -1,0 +1,13 @@
+var db = {
+"user": [
+{'firstName':'Mahmut','lastName':'Duva'},{'firstName':'Arzum','lastName':'Kalfa'},{'firstName':'Volkan','lastName':'Abak'},{'firstName':'Şeyma','lastName':'Duva'},{'firstName':'Dilara','lastName':'Kalfa'},{'firstName':'Sercan','lastName':'Işık'}
+],
+"book":[
+{'name':'Aşk','year':'2010'},{'name':'Yüzüklerin Efendisi','year':'2003'},{'name':'Baba ve piç','year':'2007'},{'name':'Aşk','year':'2010'},{'name':'Aşk','year':'2010'},{'name':'Aşk','year':'2010'}
+],
+
+"movie":[
+{'name':'Hızlı ve Öfkeli','year':'2005'},{'name':'Simyacı','year':'2009'},{'name':'Yüzüklerin Efendisi','year':'2010'}
+]
+
+}

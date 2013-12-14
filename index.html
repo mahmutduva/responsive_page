@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Responsive</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link href="css/style.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap-theme.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="css/slicknav.css" rel="stylesheet" media="screen">
+<script src="js/jquery.js"></script>
+<script src="js/data.json"></script>
+<script src="js/json.js"></script>
+<script src="js/modernizr-2.0.6.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#menu').slicknav();
+        });
+    </script>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <img src="img/logo_normal.png" class="normal_logo">
+        <ul class="nav nav-pills" id="menu">
+
+            <li><a href="?home" id="home">Home</a></li>
+            <li><a href="?project" id="project">Project</a></li>
+            <li><a href="?news" id="news">News</a></li>
+            <li><a href="?about" id="about">About</a></li>
+            <li><a href="?contact" id="contact">Contact</a></li>
+        </ul>
+    </header>
+    <section>
+    <div class="project">
+        <div class="row show-grid">
+            <div class="col-xs-6 col-sm-4">
+                <img src="img/indir.png" alt="..." class="img-rounded">
+                <img src="img/indir.png" alt="..." class="img-rounded">
+                <h1>Project 1</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla ut purus tempus ultrices sed et erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+            </div>
+            <!-- Optional: clear the XS cols if their content doesn't match in height -->
+            <div class="clearfix visible-xs"></div>
+            <div class="col-xs-6 col-sm-4">
+                <img src="img/indir.png" alt="..." class="img-rounded">
+                <img src="img/indir.png" alt="..." class="img-rounded">
+                <h1>Project 2</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla ut purus tempus ultrices sed et erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+            </div>
+            <!-- Optional: clear the XS cols if their content doesn't match in height -->
+            <div class="clearfix visible-xs"></div>
+            <div class="col-xs-6 col-sm-4">
+                <img src="img/indir.png" alt="..." class="img-rounded">
+                <img src="img/indir.png" alt="..." class="img-rounded">
+                <h1>Project 3</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla ut purus tempus ultrices sed et erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="news">
+        <div class="row show-grid">
+            <div class="col-xs-6 col-sm-4">
+                <h1>New 1</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla ut purus tempus ultrices sed et erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi odio ipsum, bibendum a purus id, aliquet convallis odio. Donec facilisis nisi et nisi dignissim sagittis.</p>
+                <a href="#">More</a>
+            </div>
+            <!-- Optional: clear the XS cols if their content doesn't match in height -->
+            <div class="clearfix visible-xs"></div>
+            <div class="col-xs-6 col-sm-4">
+                <h1>New 2</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla ut purus tempus ultrices sed et erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi odio ipsum, bibendum a purus id, aliquet convallis odio. Donec facilisis nisi et nisi dignissim sagittis.</p>
+                <a href="#">More</a>
+            </div>
+            <!-- Optional: clear the XS cols if their content doesn't match in height -->
+            <div class="clearfix visible-xs"></div>
+            <div class="col-xs-6 col-sm-4">
+                <h1>New 3</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla ut purus tempus ultrices sed et erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi odio ipsum, bibendum a purus id, aliquet convallis odio. Donec facilisis nisi et nisi dignissim sagittis.</p>
+                <a href="#">More</a>
+            </div>
+            <div class="clearfix visible-xs"></div>
+            <div class="col-xs-6 col-sm-4">
+                <h1>New 4</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla ut purus tempus ultrices sed et erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi odio ipsum, bibendum a purus id, aliquet convallis odio. Donec facilisis nisi et nisi dignissim sagittis.</p>
+                <a href="#">More</a>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <p>Hakkımda</p>
+    </div>
+    </section>
+</div>
+</body>
+</html>
